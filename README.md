@@ -24,7 +24,7 @@ Class distribution analysis revealed significant imbalances, with ”neutral” 
 both the Random Forest (RF) and Naive Bayes models.
 
 # Naive Bayes Implementation
-We developed MultinomialNB from scratch to implement the Naive Bayes algorithm. Multinomial Naive Bayes was
+MultinomialNB was developed from scratch to implement the Naive Bayes algorithm. Multinomial Naive Bayes was
 chosen due to its effectiveness in handling feature counts, making it well-suited for text classification tasks.
 Laplace smoothing is applied to handle zero probabilities, controlled by two hyperparameters: laplace smoothing, which
 enables or disables smoothing, and alpha, the smoothing constant. The model’s parameters include priors, representing the
